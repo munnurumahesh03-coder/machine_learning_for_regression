@@ -52,14 +52,12 @@ Exploratory Data Analysis (EDA) was crucial for understanding the dataset's chal
 ### 1. Normalizing the Target Variable
 The original `charges` data was heavily skewed. A log-transformation was applied to normalize the distribution, resulting in a much cleaner, symmetrical bell curve. This step is critical for stabilizing many regression models.
 
-*Replace this line with your Distribution of Charges histogram:*
-`![Distribution of Charges](assets/charges_distribution.png)`
+![Distribution of Charges](assets/charges_distribution.png)
 
 ### 2. Understanding Feature Relationships
 The correlation heatmap immediately revealed the core challenge of this project: very weak linear correlations between most features and the target variable `charges`. This visual proof sets the stage for why modeling was so difficult and why simple models performed surprisingly well.
 
-*Replace this line with your Correlation Heatmap image:*
-`![Correlation Heatmap](assets/correlation_heatmap.png)`
+![Correlation Heatmap](assets/correlation_heatmap.png)
 
 ---
 
@@ -156,8 +154,8 @@ The final objective was to build a **Stacking Regressor** to see if a "team" of 
 4.  **Run the Deployed App with Gradio:** The final Capstone Model was deployed using Gradio, a Python library chosen for its simplicity in creating machine learning UIs. You can run the last cells in the final notebook to launch the interactive web application.
     *   **Why Gradio?** It allows a data scientist to build and share a compelling demo without needing web development expertise (HTML, CSS, JavaScript  ).
     *   **Application Features:** The app uses interactive sliders, radio buttons, and dropdowns to guide user input and provides real-time predictions formatted in a user-friendly currency format.
-    *   *Replace this line with your Gradio App Screenshot:*
-        `![Gradio App Demo](assets/gradio_demo.png)`
+    *   
+        ![Gradio App Demo](assets/gradio_demo.png)
 
 ---
 
