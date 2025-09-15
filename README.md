@@ -47,19 +47,19 @@ The project uses the `messy_regression_dataset_20k.csv`, a synthetic but realist
 
 ## Visualizing the Data
 
-Exploratory Data Analysis (EDA) was crucial for understanding the dataset's challenges and identifying potential signals.
+Exploratory Data Analysis (EDA) was crucial for understanding the dataset's challenges and guiding our modeling strategy.
 
-### Correlation of Numerical Features
-The heatmap immediately revealed the core challenge: very weak linear correlations between most features and the target variable `charges`. This visual proof sets the stage for why modeling was so difficult.
+### 1. Normalizing the Target Variable
+The original `charges` data was heavily skewed. A log-transformation was applied to normalize the distribution, resulting in a much cleaner, symmetrical bell curve. This step is critical for stabilizing many regression models.
+
+*Replace this line with your Distribution of Charges histogram:*
+`![Distribution of Charges](assets/charges_distribution.png)`
+
+### 2. Understanding Feature Relationships
+The correlation heatmap immediately revealed the core challenge of this project: very weak linear correlations between most features and the target variable `charges`. This visual proof sets the stage for why modeling was so difficult and why simple models performed surprisingly well.
 
 *Replace this line with your Correlation Heatmap image:*
 `![Correlation Heatmap](assets/correlation_heatmap.png)`
-
-### Impact of Smoking on Charges
-Despite the noise, EDA successfully identified `smoker` status as one of the few features with a discernible impact on medical charges, justifying its importance in our models.
-
-*Replace this line with your Smoker Boxplot image:*
-`![Smoker Boxplot](assets/smoker_boxplot.png)`
 
 ---
 
