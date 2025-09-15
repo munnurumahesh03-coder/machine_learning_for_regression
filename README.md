@@ -1,4 +1,4 @@
-# machine_learning_for_regression
+# Machine_Learning_For_Regression
 # Ultimate Regressor Gauntlet: A Capstone Project
 
 
