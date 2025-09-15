@@ -1,8 +1,6 @@
 # machine_learning_for_regression
 # Ultimate Regressor Gauntlet: A Capstone Project
 
-![Ultimate Regressor Gauntlet Project Banner](https://i.imgur.com/8zP2J9C.png )
-
 
 
 **Project Status: Completed**
